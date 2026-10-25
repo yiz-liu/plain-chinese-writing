@@ -1,0 +1,4 @@
+interface:
+  display_name: "简明中文写作"
+  short_description: "按 ISO 24495 原则优化简体中文表达，去除空泛、重复和AI腔"
+  default_prompt: "使用 $plain-chinese-writing 优化以下文字，去掉AI腔，保留事实、条件和原有语气，直接给出正文。"
