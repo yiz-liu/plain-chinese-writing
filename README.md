@@ -5,6 +5,7 @@
 ## 适用场景
 
 - 起草通知、邮件、说明文档等实用文本。
+- 编写和优化教程、操作指南、接口与配置参考、故障排查及技术解释。
 - 整理会议纪要和报告，突出结论、条件与后续行动。
 - 改写冗长、生硬或空泛的文字，处理公文腔、翻译腔和AI腔。
 - 审阅现有文本，指出理解障碍并给出具体修改建议。
@@ -58,8 +59,10 @@ npx skills add . --agent codex claude-code --global
 ## 文件说明
 
 - [技能说明](SKILL.md)：适用范围、写作流程和交付前检查。
-- [写作指南](references/zh-hans-guide.md)：中文表达、专业文本、标点与数字的具体处理方法。
+- [写作指南](references/zh-hans-guide.md)：中文表达、法律与科学表述、标点与数字的具体处理方法。
+- [技术文档指南](references/technical-writing.md)：按读者任务选择文档结构，写清操作步骤、接口与配置、故障排查和技术机制。
 - [改写示例](references/examples.md)：原文、改文和修改理由。
+- [技术文档改写示例](references/technical-examples.md)：操作流程、参数边界、排查分支和机制解释的改法。
 - [调用配置](agents/openai.yaml)：显示名称、简介和默认调用提示。
 
 ## 许可证
